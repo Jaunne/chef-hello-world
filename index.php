@@ -16,10 +16,10 @@ require_once "config.php";
   <div class="row">
     <div class="col-11">
       <h1>Ops Demo</h1>
-      <h6>Deployment celebrations should be about the value of the new features, not joyful relief that nothing went horribly wrong</h6>
+      <h5>Deployment celebrations should be about the value of the new features, not joyful relief that nothing went horribly wrong</h5>
     </div>
     <div class="col-1">
-      <img src="/images/chef.png" width="80"/>
+      <img src="/images/chef.png" width="90"/>
     </div>
   </div>
    
