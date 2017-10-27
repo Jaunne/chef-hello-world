@@ -12,7 +12,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   
   # Replace the User ID with you user ids
   # user the unix id command: id myrsawebva
-  config.vm.synced_folder "src/", "/opt/demo/public", owner: "demo", group: "demo"#, mount_options: ["uid=1002", "gid=1002"]
+  config.vm.synced_folder "src/", "/opt/demo/public", owner: "demo", group: "demo", mount_options: ["uid=1001", "gid=1001"]
   
   #Mount Chef 
   config.vm.synced_folder "C:/Users/Giovann/Documents/chef-server", "/opt/chef/chef-solo", owner: "root", group: "root"
