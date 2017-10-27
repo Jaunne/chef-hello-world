@@ -1,0 +1,17 @@
+body {
+    color: #FFF;
+    background: transparent url("/images/pony.png") no-repeat;
+    background-size: 100%;
+    padding-top: 20px;
+    
+    
+}
+
+
+.ponies {
+    margin-top: 40px;
+}
+
+.ponies .col-2 {
+    padding-left: 50px;
+}
